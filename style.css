@@ -21,7 +21,7 @@
 /* START HOME */
 
 #home {
-    background: url(C:/ElevenFiftyProjects/PortfolioImages/long-road.jpg);
+    background: url(./long-road.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,7 @@
     padding-top: 30px;
     padding-bottom: 30x;
     width: 100%;
-    background: url(C:/ElevenFiftyProjects/PortfolioImages/OIHR970-e1522873047667.jpg);
+    background: url(./OIHR970-e1522873047667.jpg);
     overflow: hidden;
 }
 
@@ -80,7 +80,7 @@
     margin-top: 8%;
     margin-bottom: 8%;
     border-radius: 25px;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/landscape.jpg);
+    background-image: url(./landscape.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +122,7 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/linked+linkedin+logo+social+icon-1320191784782940875.png);
+    background-image: url(./linked+linkedin+logo+social+icon-1320191784782940875.png);
 }
 
 #gitHub {
@@ -133,7 +133,7 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/github-square-512.png);
+    background-image: url(./github-square-512.png);
 }
 
 #resume {
@@ -144,7 +144,7 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/resume_icon.png);
+    background-image: url(./resume_icon.png);
 }
 
 #cardText {
@@ -169,7 +169,7 @@
     padding-top: 88px;
     padding-bottom: 88px;
     width: 100%;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/H2bVfW.jpg);
+    background-image: url(./H2bVfW.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,7 +215,7 @@
     border: transparent;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/paper1.jpg);
+    background-image: url(./paper1.jpg);
     box-shadow: 2px 2px 4px black;
     opacity: 1;
     transition: 0.5s;
@@ -223,7 +223,7 @@
 }
 
 .cssCreature:hover {
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/cssCreature.PNG);
+    background-image: url(./cssCreature.PNG);
     color: transparent;
 }
 
@@ -234,14 +234,14 @@
     border: transparent;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/paper2.jpg);
+    background-image: url(./paper2.jpg);
     box-shadow: 2px 2px 4px black;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .staticLayout:hover {
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/staticLayout.PNG);
+    background-image: url(./staticLayout.PNG);
     color:transparent;
 }
 
@@ -252,14 +252,14 @@
     border: transparent;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/paper4.jpg);
+    background-image: url(./paper4.jpg);
     box-shadow: 2px 2px 4px black;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .nytApi:hover {
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/Capture.PNG);
+    background-image: url(./Capture.PNG);
     color: transparent;
 }
 
@@ -270,14 +270,14 @@
     border: transparent;
     background-size: cover;
     background-position: center center;
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/paper3.jpg);
+    background-image: url(./paper3.jpg);
     box-shadow: 2px 2px 4px black;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .sketchAndInspiration:hover {
-    background-image: url(C:/ElevenFiftyProjects/PortfolioImages/lastone.PNG);
+    background-image: url(./lastone.PNG);
     color: transparent;
 }
 
@@ -294,7 +294,7 @@
     padding-top: 88px;
     padding-bottom: 88px;
     width: 100%;
-    background: url(C:/ElevenFiftyProjects/PortfolioImages/chinese-rice-paper-texture.png);
+    background: url(./chinese-rice-paper-texture.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
