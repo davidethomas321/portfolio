@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar fixed-top navbar-default navbar-expand-md navbar-dark bg-dark">
+        <a id="navbrand" href="#home" class="navbar-brand">David Thomas</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav" id="navbaritems">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- HOMEPAGE SECTION -->
+    <section id="home">
+
+        <div class="container">
+
+            <!-- HOMEPAGE TEXT -->
+            <h1 id="bannertext">David Thomas</h1>
+            <h1 id="bannertext2">Web Developer</h1>
+
+        </div>
+
+    </section>
+
+
+<!-- ABOUT SECTION -->
+    <section id="about">
+
+        <div id="card">
+
+            <!-- <div class="profile1"> -->
+                
+                <div id="profile">
+                    <img id="profile" src="C:/ElevenFiftyProjects/PortfolioImages/Profile (2).jpg">
+                </div>
+                <div class="buttons">
+                    <button onclick="document.location='https://www.linkedin.com/in/david-thomas-6a637b1aa/'" id="linkedIn"></button>
+                    <button onclick="document.location='https://github.com/davidethomas321'" id="gitHub"></button>
+                    <button onclick="document.location='https://drive.google.com/file/d/1p0lvquGlQmOTVy_HSxgAJwwSIAgrpaZ0/view?usp=sharing'" id="resume"></button>
+                </div>
+            
+
+                <div id="cardText">
+                    <h2>About</h2>
+                    <p>Born in the Phillippines, raised in Mississippi, now a resident of Indiana.  I graduated from Wabash College in 2019, where I majored in Art and minored in Political Science.
+                        I am currently a Customer Service Representative at Spot Freight, where I coordinate communications between logistics, carriers, and sales.  For my continuing education, 
+                        I am studying web development at Ivy Tech and Eleven Fifty Academy.  Overall, I would say that I am a creative problem solver; I truly enjoy the feeling of accomplishment from 
+                        solving complex problems with a team. 
+                    </p>
+                </div>
+
+            <!-- </div> -->
+            
+
+                
+
+        </div>
+            
+        
+    </section>
+
+<!-- PORFOLIO SECTION -->
+    <section id="portfolio">
+        <h1 id="portfolioHeadline">Portfolio</h1>
+        <div class = "projects">
+            <button onclick="document.location='https://codepen.io/davidethomas321/pen/wvWRREr'" class = "cssCreature">
+                <img id="thumbTack" src="C:/ElevenFiftyProjects/PortfolioImages/unnamed.png">
+                <h3 id = "description">CSS Creature</h3>
+            <button onclick="document.location='https://davidethomas321.github.io/StaticLayout/'" class= "staticLayout">
+                <img id="thumbTack" src="C:/ElevenFiftyProjects/PortfolioImages/unnamed.png">
+                <h3 id = "description">Static Layout</h3>
+            <button onclick="document.location='https://davidethomas321.github.io/nytApi/'"class = "nytApi">
+                <img id="thumbTack" src="C:/ElevenFiftyProjects/PortfolioImages/unnamed.png">
+                <h3 id = "description">NYT API</h3>
+            <button onclick="document.location='https://davidethomas321.github.io/api-project/'"class = "sketchAndInspiration">
+                <img id="thumbTack" src="C:/ElevenFiftyProjects/PortfolioImages/unnamed.png">
+                <h3 id = "description">Sketch Reference</h3>
+        </div>
+
+
+    </section>
+
+<!-- CONTACT SECTION -->
+    <section id="contact">
+        
+        <div class="container contact-form">
+            <h1>Let's get in touch.</h1>
+            <hr>
+               <div>
+                   
+                 <div class="form-group">
+                     <label>Name</label>
+                     <input type="text" class="form-control">
+                 </div>
+        
+                 <div class="form-group">
+                     <label>Email</label>
+                     <input type="text" class="form-control">
+                 </div>
+        
+                 <div class="form-group">
+                     <label>Message</label>
+                     <textarea  class="form-control" rows="7"></textarea>
+                 </div>
+        
+                 <div class="form-group">
+                     <button class="btn btn-primary btn-block">Send</button>
+                 </div>
+        
+               </div>
+        
+            </div>
+        
+        </div>
+    </section>
+
+
+<!-- FOOTER SECTION -->
+<section id="footer">
+  <p id="footertext">© David Thomas 2020</p>
+</section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
